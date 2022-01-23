@@ -1,0 +1,139 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+#body{
+    background-color: #EFD9D1;
+}
+
+/* ----- HEADER----- */
+
+.header__logo{
+    display:flex;
+    justify-content: center;
+    background-color: #999B84;
+    
+}
+.header__nav{
+     background-color: #D8AC9C;
+    text-align: center;
+    height: 60px;
+}
+.header__nav ul {
+    list-style-type: none;
+}
+.header__nav li{
+    display: inline-block;
+    padding: 18px;
+}
+.header__nav a{
+    text-decoration:none;
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 1.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+.header__nav ul li a:hover{
+    background-color: #D8AC9C;
+}
+/* --------MAIN---------- */
+.contenido{
+    position: relative;
+    float: left;
+    width: 30%;
+}
+.contenido img{
+    right: 40px;
+    top: 40px;
+    padding: 30px;
+    width: 100%;
+
+}
+.contenido h4{
+    position: relative;
+    width:100%;
+    color:black;
+    text-align: center;
+    border: 2px solid #999B84;
+    left: 30px;
+    top: 120px;
+    padding: 5px;
+    font-size: large;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.aside{
+    position: relative;
+    float: right;
+    width: 65%;
+    top: 50px;
+    
+}
+.aside p
+{
+    width: 650px;
+    text-align: justify;
+    padding: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    right: 200px;
+    font-size: large;
+}
+.aside iframe{
+    width:90%;
+    padding:10px;
+    left: 30px;
+}
+
+/* ------------FOOTER------------- */
+/* No pude hacer que me quede mas chico el footer :( */
+.footer{
+    width: 100%;
+    padding: 0.2px;
+    border-top: 1px solid rgba(50, 50, 50, 0.3);
+    position: relative;
+    clear: both;
+    top: 60px;
+    overflow: visible;
+    background-color: #999B84;
+   
+}
+.footer h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    text-align: center;
+}
+.footer ul{
+    list-style-type: none ;
+}
+.footer li{
+        display: inline-block;
+        padding: 1px;
+}
+.footer a{
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    left: 530px;
+    text-decoration:none;
+    text-align: center;
+
+}
+
+/* ----------------TOCADOS---------------------- */
+
+.main{
+    float: right;
+}
+.main img{
+    width: 33%;
+}
+.aside__tocados{
+    float: right;
+}
+.aside__tocados img{
+    width: 33%;
+}
+
+/* ------------aaaaaaaaaaaaaa profe no llegue  a hacer todos los estilos  */
